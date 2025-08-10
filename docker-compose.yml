@@ -6,6 +6,7 @@ services:
     ports:
       - "80:80"    # HTTP
       - "443:443"  # HTTPS
+      - "81:81"
       # НЕ відкриваємо 81
     expose:
       - 81
